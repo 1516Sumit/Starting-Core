@@ -1,0 +1,681 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.pricingBack {
+  background-color: #111111;
+  height: 100vh;
+
+}
+
+.pricing {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  font-size: 95%;
+}
+
+.note {
+  background-color: #111111;
+  color: white;
+  padding: 5%;
+  font-size: 20px
+}
+
+.Planes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 18%;
+}
+
+.divide {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+.scale {
+  background-color: #FFFFFF;
+  border-radius: 17px;
+  margin: 1%;
+  position: relative;
+  display: inline-block;
+
+  transition-duration: 0.5s;
+  transition-property: transform;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  padding: 2em 1em 2em 1em;
+}
+
+.scale:hover {
+  transform: scale(1.03);
+  background-color: #00618E;
+  color: #FFFFFF;
+}
+
+
+.scale:hover .hover {
+  background-color: #00618e;
+  color: #FFFFFF;
+}
+
+
+.scale:hover .ChooseButton2 {
+  background-color: #FFFFFF;
+  color: #00618E;
+  padding-bottom: 0.5em;
+}
+
+
+.Planes div div h1 {
+  margin-left: 4%;
+  font-size: 28px;
+  line-height: 150%;
+}
+
+.Planes div div h2 {
+  margin-left: 4%;
+  font-size: 13px;
+  line-height: 180%;
+  font-weight: 400;
+}
+
+.features div {
+  display: flex;
+  flex-direction: row;
+}
+
+.Planes div input {
+  margin-right: 1%;
+  border-radius: 50%;
+}
+
+.Planes div div p {
+  margin-left: 3%;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+
+.ChooseButton2 {
+  background-color: #00618E;
+  color: #F2F4F6;
+  border-radius: 50px;
+  width: 100%;
+  height: 35px;
+  border: none;
+  cursor: pointer;
+  font-family: Work Sans;
+  font-size: 15px;
+  margin-top: 0.7em;
+}
+
+.ChooseButton2:hover {
+  background-color: #FFFFFF;
+  color: #00618E;
+}
+
+@media (min-width: 280px) and (max-width: 360px) {
+  .pricingBack {
+    height: 230vh;
+  }
+
+  /* .box-3 {
+    height: 330px;
+    width: 256px;
+    padding: 1em 1em 1em 1em;
+    font-size: 1em;
+  } */
+
+  .divide{
+    flex-direction: column;
+  }
+
+  .Planes {
+    flex-direction: column;
+    top: 70px;
+  }
+
+  .scale:hover {
+    transform: scale(1.05);
+  }
+
+  .pricing h1 {
+    font-size: 80px;
+  }
+
+  .ChooseButton2 {
+    font-size: 13px;
+    height: 30px;
+  }
+
+  .Planes div div h1 {
+    margin-left: 2%;
+    font-size: 18px;
+    line-height: 84%;
+  }
+
+  .Planes div div h2 {
+    margin-left: 2%;
+    font-size: 8px;
+    line-height: 120%;
+  }
+
+  .Planes div div p {
+    font-size: 12px;
+  }
+
+  .animatPrice1 {
+    margin-left: 7%;
+    margin-top: 25%;
+  }
+
+  .animatPrice2 {
+    margin-left: 40%;
+    margin-top: 15%;
+  }
+
+  .animatPrice3 {
+    display: block;
+    margin-left: 7%;
+    margin-top: 15%;
+  }
+
+  .animatPrice4 {
+    display: block;
+    margin-left: 40%;
+    margin-top: 15%;
+  }
+
+  .animatPrice5 {
+    display: block;
+    margin-left: 7%;
+    margin-top: 15%;
+  }
+
+  .pricing {
+    width: 30%;
+  }
+
+  .scale {
+    margin: 2% 2%;
+  }
+
+  #foot {
+    margin-top: 50px;
+  }
+
+  .note {
+    padding: 10%;
+    font-size: 16px
+  }
+}
+
+
+@media (min-width: 361px) and (max-width: 600px) {
+  .pricingBack {
+    height: 230vh;
+  }
+
+
+  /* .box-3 {
+    height: 330px;
+    width: 256px;
+    padding: 1em 1em 1em 1em;
+    font-size: 1em;
+  } */
+
+  .divide{
+    flex-direction: column;
+  }
+
+  .Planes {
+    flex-direction: column;
+    top: 70px;
+  }
+
+  .scale:hover {
+    transform: scale(1.05);
+  }
+
+
+  .ChooseButton2 {
+    font-size: 13px;
+    height: 30px;
+  }
+
+  .Planes div div h1 {
+    margin-left: 2%;
+    font-size: 18px;
+    line-height: 84%;
+  }
+
+  .Planes div div h2 {
+    margin-left: 2%;
+    font-size: 8px;
+    line-height: 120%;
+  }
+
+  .Planes div div p {
+    font-size: 12px;
+  }
+
+
+  .pricing {
+    width: 100%;
+  }
+
+  .scale {
+    margin: 2% 2%;
+  }
+
+  #foot {
+    margin-top: 50px;
+  }
+
+  .note {
+    padding: 5%;
+    font-size: 16px
+  }
+}
+
+
+@media (min-width: 600px) and (max-width: 768px) {
+  .pricingBack {
+    height: auto;
+  }
+
+
+  /* .box-3 {
+  height: 330px;
+  width: 256px;
+  padding: 1em 1em 1em 1em;
+  font-size: 1em;
+} */
+
+.Planes {
+  flex-direction: column;
+  padding-top: 15%;
+}
+
+  .scale:hover {
+    transform: scale(1.05);
+  }
+
+
+  .ChooseButton2 {
+    font-size: 13px;
+    height: 30px;
+  }
+
+  .Planes div div h1 {
+    margin-left: 2%;
+    font-size: 18px;
+    line-height: 84%;
+  }
+
+  .Planes div div h2 {
+    margin-left: 2%;
+    font-size: 8px;
+    line-height: 120%;
+  }
+
+  .Planes div div p {
+    font-size: 12px;
+  }
+
+
+  .pricing {
+    width: 100%;
+  }
+
+  .scale {
+    margin: 2% 2%;
+  }
+
+  #foot {
+    margin-top: 50px;
+  }
+
+  .note {
+    padding: 5%;
+    font-size: 16px
+  }
+}
+
+@media (min-width:768px) and (max-width: 934px) {
+  .pricingBack {
+    height: auto;
+  }
+
+
+  /* .box-3 {
+    height: 330px;
+    width: 256px;
+    padding: 1em 1em 1em 1em;
+    font-size: 1em;
+  } */
+
+  .Planes {
+    flex-direction: column;
+    padding-top: 15%;
+  }
+
+  .scale:hover {
+    transform: scale(1.05);
+  }
+
+
+  .ChooseButton2 {
+    font-size: 13px;
+    height: 30px;
+  }
+
+  .Planes div div h1 {
+    margin-left: 2%;
+    font-size: 18px;
+    line-height: 84%;
+  }
+
+  .Planes div div h2 {
+    margin-left: 2%;
+    font-size: 8px;
+    line-height: 120%;
+  }
+
+  .Planes div div p {
+    font-size: 12px;
+  }
+
+
+  .pricing {
+    width: 100%;
+  }
+
+  .scale {
+    margin: 2% 2%;
+  }
+
+  #foot {
+    margin-top: 50px;
+  }
+
+  .note {
+    padding: 5%;
+    font-size: 16px
+  }
+}
+
+@media (min-width:934px) and (max-width: 1064px) {
+  /* .Planes div div h1 {
+    margin-left: 2%;
+    font-size: 22px;
+    line-height: 140%;
+  }
+
+  .Planes div div h2 {
+    margin-left: 2%;
+    font-size: 12px;
+    line-height: 160%;
+  }
+
+  .box-3 {
+    height: 441px;
+  }
+
+  .pricing {
+    width: 100%;
+  }
+
+  .Planes {
+    top: 22%;
+  }
+
+  .Planes div {
+    margin: 2% 2%;
+  } */
+  .pricingBack {
+    height: auto;
+  }
+
+  .Planes div div h1 {
+    margin-left: 2%;
+    font-size: 22px;
+    line-height: 140%;
+  }
+
+  .Planes div div h2 {
+    margin-left: 2%;
+    font-size: 12px;
+    line-height: 160%;
+  }
+
+  /* .box-3 {
+      height: 441px;
+    } */
+
+  .pricing {
+    width: 100%;
+  }
+
+  .Planes {
+    flex-direction: column;
+    padding-top: 15%;
+  }
+
+  .scale {
+    margin: 2% 2%;
+  }
+
+  #foot {
+    margin-top: 50px;
+  }
+
+  .note {
+    padding: 5%;
+    font-size: 16px
+  }
+}
+
+
+/* .scale {
+    height: 24em;
+    padding: 0.5em 0em 0em 0.2em;
+  }
+
+  .box-3 {
+    height: 410px;
+    width: 330px;
+    padding: 0em 1em 1em 1em;
+    font-size: 1.4em;
+  }
+
+  .pricing h1 {
+    font-size: 200px;
+  }
+
+  .Planes div div h1 {
+    margin-left: 2%;
+    font-size: 22px;
+    line-height: 140%;
+  }
+
+  .Planes div div h2 {
+    margin-left: 2%;
+    font-size: 12px;
+    line-height: 160%;
+  }
+
+
+  .scale:hover .ChooseButton2 {
+    background-color: #FFFFFF;
+    color: #00618E;
+    padding-bottom: 1.5em;
+  }
+
+  .animatPrice1 {
+    margin-left: 7%;
+  }
+
+  .animatPrice2 {
+    margin-left: 40%;
+    margin-top: 6%;
+  }
+} */
+
+/* @media (min-width:768px) and (max-width: 1064px) {
+  .pricing {
+    width: 100%;
+  }
+
+  .ChooseButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ChooseButton2 {
+    width: 10em;
+    margin-left: 0em;
+  }
+
+  .scale {
+    height: 28em;
+    padding: 0.5em 0em 0em 0.2em;
+  }
+
+
+  .Planes div div h1 {
+    margin-left: 2%;
+    font-size: 17px;
+    line-height: 140%;
+  }
+
+  .Planes div div h2 {
+    margin-left: 2%;
+    font-size: 10px;
+    line-height: 160%;
+  }
+
+
+  .scale:hover .ChooseButton2 {
+    background-color: #FFFFFF;
+    color: #00618E;
+    padding-bottom: 1.5em;
+  }
+
+  .box-3 .hover {
+    padding-top: 0.1em;
+  }
+
+  .Planes {
+    top: 22%;
+  }
+
+  .box-3 {
+    height: 400px;
+    width: 280px;
+    padding: 0.4em 1em 1em 1em;
+    font-size: 1.4em;
+  }
+
+
+  .Planes div {
+    margin: 2% 2%;
+  }
+
+}
+
+@media (min-width:768px) and (max-width: 934px) {
+
+  .pricingBack {
+    height: 270vh;
+  }
+
+  .scale {
+    height: 24em;
+    padding: 0.5em 0em 0em 0.2em;
+  }
+
+  .box-3 {
+    height: 370px;
+  }
+
+  .Planes {
+    top: 8%;
+    flex-direction: column;
+  }
+
+  .pricing {
+    margin-left: -5em;
+  }
+
+  .Planes div div h1 {
+    margin-left: 2%;
+    font-size: 20px;
+    line-height: 84%;
+  }
+
+  .Planes div div h2 {
+    margin-left: 2%;
+    font-size: 10px;
+    line-height: 120%;
+  }
+
+  .Planes div div p {
+    font-size: 14px;
+  }
+
+} */
+
+@media (min-width:1065px) and (max-width: 1368px) {
+
+  .Planes div div h1 {
+    margin-left: 2%;
+    font-size: 22px;
+    line-height: 140%;
+  }
+
+  .Planes div div h2 {
+    margin-left: 2%;
+    font-size: 12px;
+    line-height: 160%;
+  }
+
+  /* .box-3 {
+    height: 441px;
+  } */
+
+  .pricing {
+    width: 100%;
+  }
+
+  .Planes {
+    top: 22%;
+  }
+
+  .scale {
+    margin: 2% 2%;
+  }
+
+  #foot {
+    margin-top: 50px;
+  }
+
+  .note {
+    padding: 5%;
+    font-size: 16px
+  }
+
+}

@@ -1,0 +1,211 @@
+#app {
+    height: 100%
+}
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #F2F4F6;
+    ;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.testimonial {
+    width: 100%;
+    height: 100dvh;
+    background-color: #111111;
+}
+
+.testimonial .swiper {
+    width: 100%;
+    padding-top: 10%;
+    /* padding-bottom: 50px; */
+}
+
+.testimonial .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 500px;
+    background-color: #F2F4F6;
+}
+
+.testimonial .swiper-slide-active {
+    text-decoration: none;
+}
+
+/* .testimonial .swiper-slide img {
+  display: block;
+  width: 100%;
+} */
+
+.slidercontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+    margin-top: 25%;
+    height: auto;
+
+}
+
+/* .view {
+    display: flex;
+    flex-direction: row;
+} */
+
+.viewdescription {
+    margin: 5%;
+    margin-top: 6%;
+    font-style: work sans;
+    font-size: 16px;
+}
+
+.company {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: end;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.company div {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    flex-direction: column;
+    margin: 2%;
+}
+
+.company div h1 {
+    font-size: 16px;
+}
+
+.company div h3 {
+    font-size: 12px;
+    font-weight: 500
+}
+
+.kontent {
+    margin: 2%;
+    width: 16.5%;
+    border-radius: 10px;
+}
+
+.ngo {
+    margin: 2%;
+    width: 16%;
+    border-radius: 10px;
+
+}
+
+.cipher {
+    margin: 2%;
+    width: 28%;
+    border-radius: 10px;
+}
+
+
+.baba {
+    margin: 2%;
+    width: 45%;
+    height: 70px;
+
+}
+
+
+@media (min-width:1065px) and (max-width: 1368px) {
+
+    .slidercontent {
+
+
+        margin-top: 25%;
+
+    }
+}
+
+@media (min-width:768px) and (max-width: 1064px) {
+
+    .slidercontent {
+
+        margin-top: 25%;
+
+    }
+
+    .testimonial .swiper {
+
+        padding-top: 19%;
+
+    }
+}
+
+@media (min-width: 640px) and (max-width: 768px) {
+
+
+    .slidercontent {
+
+        margin-top: 25%;
+
+    }
+
+    .testimonial .swiper {
+
+        padding-top: 14%;
+
+    }
+}
+
+@media (min-width: 480px) and (max-width:640px) {
+
+    .slidercontent {
+
+        margin-top: 25%;
+
+    }
+
+    .testimonial .swiper {
+
+        padding-top: 12%;
+
+    }
+}
+
+@media (min-width: 360px) and (max-width:480px) {
+
+    .slidercontent {
+
+        margin-top: 25%;
+
+    }
+
+    .testimonial .swiper {
+
+        padding-top: 12%;
+
+    }
+}
+
+@media (min-width: 280px) and (max-width:360px) {
+
+    .slidercontent {
+
+        margin-top: 25%;
+
+    }
+
+    .testimonial .swiper {
+
+        padding-top: 17%;
+
+    }
+}
