@@ -1,5 +1,4 @@
 import React from "react";
-// import { CSSTransition } from 'react-transition-group';
 import "./AnimatedDivs.css";
 
 function AnimatedDivs() {
@@ -44,8 +43,6 @@ function AnimatedDivs() {
               <img className="frame" src="./images/grafikstash.png" alt="#" />
             </div>
           </div>
-          {/* <h3 className="show animated">SCROLL DOWN</h3>
-          <img className="down animated" src="./images/down.png" alt="#" /> */}
         </div>
       </div>
 
@@ -91,8 +88,6 @@ function AnimatedDivs() {
               <img className="frame" src="./images/app-dev.png" alt="#" />
             </div>
           </div>
-          {/* <h3 className="show animated">SCROLL DOWN</h3>
-          <img className="down animated" src="./images/down.png" alt="#" /> */}
         </div>
       </div>
 
@@ -132,8 +127,6 @@ function AnimatedDivs() {
               <img className="frame" src="./images/uiux 1.png" alt="#" />
             </div>
           </div>
-          {/* <h3 className="show animated">SCROLL DOWN</h3>
-          <img className="down animated" src="./images/down.png" alt="#" /> */}
         </div>
       </div>
       <div className="field1">
@@ -170,8 +163,6 @@ function AnimatedDivs() {
               <img className="frame" src="./images/graphic-img.png" alt="#" />
             </div>
           </div>
-          {/* <h3 className="show animated">SCROLL DOWN</h3>
-          <img className="down animated" src="./images/down.png" alt="#" /> */}
         </div>
       </div>
     </>

@@ -142,18 +142,7 @@ function Landing() {
                 </div>
               </div>
               <svg className="vector1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 32" fill="none">
-                <defs>
-                  <linearGradient id="left-to-rights">
-                    <stop offset="0" stopColor="#F2F4F6">
-                      <animate dur="3s" attributeName="offset" fill="freeze" from="0" to="1" repeatCount="indefinite" />
-                    </stop>
-                    <stop offset="0" stopColor="transparent">
-                      <animate dur="3s" attributeName="offset" fill="freeze" from="0" to="1" repeatCount="indefinite" />
-                    </stop>
-
-                  </linearGradient>
-                </defs>
-                <path strokeWidth="1" opacity="1" fill="url(#left-to-rights)" d="M209.201 12.7316C209.454 12.6205 209.569 12.3255 209.458 12.0727L207.648 7.95279C207.537 7.69997 207.242 7.58506 206.989 7.69614C206.736 7.80721 206.621 8.10221 206.732 8.35503L208.341 12.0172L204.679 13.6261C204.426 13.7372 204.311 14.0322 204.422 14.285C204.533 14.5378 204.828 14.6527 205.081 14.5417L209.201 12.7316ZM1.20016 31.4582C21.281 22.686 55.7804 11.2168 93.9755 5.33911C132.179 -0.539818 174.018 -0.815432 208.819 12.7397L209.181 11.8079C174.145 -1.83921 132.103 -1.5399 93.8234 4.35075C55.5364 10.2426 20.9539 21.7377 0.799843 30.5418L1.20016 31.4582Z" />
+                <path strokeWidth="1" opacity="1" fill="white" d="M209.201 12.7316C209.454 12.6205 209.569 12.3255 209.458 12.0727L207.648 7.95279C207.537 7.69997 207.242 7.58506 206.989 7.69614C206.736 7.80721 206.621 8.10221 206.732 8.35503L208.341 12.0172L204.679 13.6261C204.426 13.7372 204.311 14.0322 204.422 14.285C204.533 14.5378 204.828 14.6527 205.081 14.5417L209.201 12.7316ZM1.20016 31.4582C21.281 22.686 55.7804 11.2168 93.9755 5.33911C132.179 -0.539818 174.018 -0.815432 208.819 12.7397L209.181 11.8079C174.145 -1.83921 132.103 -1.5399 93.8234 4.35075C55.5364 10.2426 20.9539 21.7377 0.799843 30.5418L1.20016 31.4582Z" />
               </svg>
 
             </div>
@@ -169,18 +158,7 @@ function Landing() {
                 </div>
               </div>
               <svg className="vector2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 209 39" fill="none">
-                <defs>
-                  <linearGradient id="left-to-right">
-                    <stop offset="0" stopColor="#F2F4F6">
-                      <animate dur="3s" attributeName="offset" fill="freeze" from="0" to="1" repeatCount="indefinite" />
-                    </stop>
-                    <stop offset="0" stopColor="transparent">
-                      <animate dur="3s" attributeName="offset" fill="freeze" from="0" to="1" repeatCount="indefinite" />
-                    </stop>
-
-                  </linearGradient>
-                </defs>
-                <path strokeWidth="1" opacity="1" fill="url(#left-to-right)" d="M208.44 23.7654C208.571 23.5226 208.481 23.2191 208.238 23.0875L204.282 20.9434C204.039 20.8118 203.736 20.902 203.604 21.1447C203.472 21.3875 203.563 21.691 203.805 21.8226L207.322 23.7285L205.416 27.2452C205.285 27.488 205.375 27.7915 205.618 27.9231C205.86 28.0546 206.164 27.9645 206.295 27.7217L208.44 23.7654ZM0.636358 1.34317C21.4381 23.3859 91.9493 58.5229 208.142 24.0064L207.858 23.0478C91.9355 57.4839 21.8472 22.3624 1.36364 0.656831L0.636358 1.34317Z" />
+                <path strokeWidth="1" opacity="1" fill="white" d="M208.44 23.7654C208.571 23.5226 208.481 23.2191 208.238 23.0875L204.282 20.9434C204.039 20.8118 203.736 20.902 203.604 21.1447C203.472 21.3875 203.563 21.691 203.805 21.8226L207.322 23.7285L205.416 27.2452C205.285 27.488 205.375 27.7915 205.618 27.9231C205.86 28.0546 206.164 27.9645 206.295 27.7217L208.44 23.7654ZM0.636358 1.34317C21.4381 23.3859 91.9493 58.5229 208.142 24.0064L207.858 23.0478C91.9355 57.4839 21.8472 22.3624 1.36364 0.656831L0.636358 1.34317Z" />
               </svg>
             </div>
             <div>
@@ -194,18 +172,7 @@ function Landing() {
                 </div>
               </div>
               <svg className="vector3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 32" fill="none">
-                <defs>
-                  <linearGradient id="left-to-rights">
-                    <stop offset="0" stopColor="#F2F4F6">
-                      <animate dur="3s" attributeName="offset" fill="freeze" from="0" to="1" repeatCount="indefinite" />
-                    </stop>
-                    <stop offset="0" stopColor="transparent">
-                      <animate dur="3s" attributeName="offset" fill="freeze" from="0" to="1" repeatCount="indefinite" />
-                    </stop>
-
-                  </linearGradient>
-                </defs>
-                <path strokeWidth="1" opacity="1" fill="url(#left-to-rights)" d="M209.201 12.7316C209.454 12.6205 209.569 12.3255 209.458 12.0727L207.648 7.95279C207.537 7.69997 207.242 7.58506 206.989 7.69614C206.736 7.80721 206.621 8.10221 206.732 8.35503L208.341 12.0172L204.679 13.6261C204.426 13.7372 204.311 14.0322 204.422 14.285C204.533 14.5378 204.828 14.6527 205.081 14.5417L209.201 12.7316ZM1.20016 31.4582C21.281 22.686 55.7804 11.2168 93.9755 5.33911C132.179 -0.539818 174.018 -0.815432 208.819 12.7397L209.181 11.8079C174.145 -1.83921 132.103 -1.5399 93.8234 4.35075C55.5364 10.2426 20.9539 21.7377 0.799843 30.5418L1.20016 31.4582Z" />
+                <path strokeWidth="1" opacity="1" fill="white" d="M209.201 12.7316C209.454 12.6205 209.569 12.3255 209.458 12.0727L207.648 7.95279C207.537 7.69997 207.242 7.58506 206.989 7.69614C206.736 7.80721 206.621 8.10221 206.732 8.35503L208.341 12.0172L204.679 13.6261C204.426 13.7372 204.311 14.0322 204.422 14.285C204.533 14.5378 204.828 14.6527 205.081 14.5417L209.201 12.7316ZM1.20016 31.4582C21.281 22.686 55.7804 11.2168 93.9755 5.33911C132.179 -0.539818 174.018 -0.815432 208.819 12.7397L209.181 11.8079C174.145 -1.83921 132.103 -1.5399 93.8234 4.35075C55.5364 10.2426 20.9539 21.7377 0.799843 30.5418L1.20016 31.4582Z" />
               </svg>
             </div>
             <div>
@@ -378,6 +345,7 @@ function Landing() {
                     <img src="./images/Img1.png" alt="" />
                     <h3 className="SC">Starting core</h3>
                   </div>
+                  <div>
                   <p>
                     At STARTING CORE, we understand that influencers and creators
                     are the driving force behind today's dynamic digital
@@ -385,6 +353,7 @@ function Landing() {
                     stepping into the realm of influence, we're here to propel
                     your journey to new heights. ”{" "}
                   </p>
+                  </div>
                 </div>
               </div>
 

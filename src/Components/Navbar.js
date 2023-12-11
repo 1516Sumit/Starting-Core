@@ -63,10 +63,10 @@ const Navbar = () => {
           <a href="/" className="nav-link logoname font-face-sa grow">
             Starting Core
           </a>
-        </div>
         <button className="nav-btn" onClick={showNavbar}>
           <FaBars />
         </button>
+        </div>
       </div>
     </>
   );
